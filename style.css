@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ h1{
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ body{
+    background-image: linear-gradient(#7cc5b5,#09725c);
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ 
+ .main{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 6px; 
+ }
+ .main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 10px solid black;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+ }
+ .btn input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #197561;
+    border-radius: 6px;
+    color: white;
+ }
+ .btn input[type='button']:hover{
+    background-color: rgb(43, 232, 30);
+    color: rgb(0, 0, 0);
+    border:6px solid rgb(45, 203, 45) ;
+ }
+ #b1{
+    background-color: rgb(238, 66, 66);
+ }
+ #b1:hover{
+    background-color: rgb(237, 14, 14);
+    color: whitesmoke;
+    border:6px solid black;
+ }
+ #b2:hover{
+    background-color: black;
+    color:gold;
+    border:6px solid grey;
+ }
